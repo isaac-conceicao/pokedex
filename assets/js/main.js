@@ -1,0 +1,1 @@
+console.log('script importado com sucesso')
