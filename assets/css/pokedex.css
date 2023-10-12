@@ -126,7 +126,29 @@
   .fairy {
     background-color: #ee99ac;
   }
-  
+
+  .pokemon .detail .types .electric{
+    color: #5f5f5f;
+  }
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button{
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  color: white;
+  background-color: #6c79db;
+  border: none;
+  border-radius: 1rem;
+  font-size: .825rem;
+}
 
 @media screen and (min-width: 380px) {
     .pokemons{
