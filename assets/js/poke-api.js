@@ -14,6 +14,17 @@ function convertPokeApiDetailToPokemon(pokeApiDetail){
     pokemon.type = type
     pokemon.image = pokeApiDetail.sprites.other.dream_world.front_default
 
+    // Novas propriedades adicionais
+    pokemon.species = pokeApiDetail.species.name;
+    pokemon.height = pokeApiDetail.height;
+    pokemon.weight = pokeApiDetail.weight;
+    pokemon.abilities = pokeApiDetail.abilities.map(ability => ability.ability.name);
+
+    // Processamento das estatísticas de base
+    pokeApiDetail.stats.forEach(stat => {
+        pokemon.baseStats[stat.stat.name] = stat.base_stat;
+    });
+    
     return pokemon;
 }
 

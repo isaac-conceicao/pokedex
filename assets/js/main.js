@@ -7,16 +7,23 @@ let offset = 0;
 function loadPokemonItems(offset,limit){
     pokeApi.getPokemons(offset,limit).then((pokemons = []) => {
          const newHtml = pokemons.map((pokemon) =>`
-            <li class="pokemon ${pokemon.type}">
-                <span class="number">#${pokemon.number}</span>
-                <span class="name">${pokemon.name}</span>
-                
-                <div class="detail">
-                    <ol class="types">
-                        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-                    </ol>
+            <li class="pokemon ${pokemon.type} flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <span class="number">#${pokemon.number}</span>
+                        <span class="name">${pokemon.name}</span>
                     
-                    <img src="${pokemon.image}" alt="${pokemon.name}">
+                        <div class="detail">
+                            <ol class="types">
+                                ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
+                            </ol>
+                        
+                            <img src="${pokemon.image}" alt="${pokemon.name}">
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <!-- implementar aqui o fundo da carta... -->
+                    </div>
                 </div>
             </li>
         `).join('')
