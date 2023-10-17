@@ -3,7 +3,7 @@ Welcome, fellow coach! On Pokedex Web App you'll be able to explore a list with 
 
 ## Features
 
-- [x] Load Pokémon data from [PokeAPI](https://pokeapi.co/)
+- [x] Load Pokémon data
 - [x] List Pokémons
 - [x] Style by Type
 - [x] Pagination
@@ -16,7 +16,24 @@ Welcome, fellow coach! On Pokedex Web App you'll be able to explore a list with 
 - [ ] Filter Pokemon
 - [ ] Favorite Pokemon
 
-## Como Usar
+## Getting Started
 
-1. Clone the rep;
-2. Open `index.html` file on your browser.
+To get started with the Pokedex Web App, follow these steps:
+
+1. Clone/Download this rep.
+2. Open the `index.html` file with your browser.
+3. Explore the world of Pokémon and enjoy the features =)
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Fetch API for Pokémon data
+- Normalize.css for cross-browser consistency
+- Google Fonts for the Roboto typeface
+
+## Acknowledgments
+
+- Pokémon data is provided by the [PokeAPI](https://pokeapi.co/).
+- Inspired by the world of Pokémon and created for educational purposes.
