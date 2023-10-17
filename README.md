@@ -25,25 +25,24 @@ To get started with the Pokedex Web App, follow these steps:
 3. On Terminal, access the project dir.
    
 5. Install npm:
-```
-npm install -g npm
-```
+   ```
+   npm install -g npm
+   ```
 
-4. Install http-server: 
-```
-npm install -g http-server
-```
+4. Install http-server:
+   ```
+   npm install -g http-server
+   ```
 
-5. Run project server: 
-```
-http-server ./
-```
+6. Run project server:
+   ```
+   http-server ./
+   ```
 
-6. Open one of the provided URL on your browser.
+7. Open one of the provided URL on your browser.
    
-8. To stop the server just hit ```Ctrl``` + ```C``` or ```Command``` + ```.```.
-   
-10. explore the world of Pokémon and enjoy the features!
+8. To stop the server just hit ```Ctrl``` + ```C``` or ```Command``` + ```.``` on Terminal.
+9. Explore the world of Pokémon and enjoy the features!
 
 ## Technologies Used
 
