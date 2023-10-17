@@ -29,9 +29,9 @@ To get started with the Pokedex Web App, follow these steps:
 - HTML
 - CSS
 - JavaScript
-- Fetch API for Pokémon data
-- Normalize.css for cross-browser consistency
-- Google Fonts for the Roboto typeface
+- Fetch API
+- Normalize.css
+- Google Fonts
 
 ## Acknowledgments
 
